@@ -252,6 +252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: dd0d89af657aab248a5e20cf115c5dd4, type: 2}
+  dialog: {fileID: 90097813}
+  textContent: {fileID: 950515349}
+  textName: {fileID: 873499571}
+  interval: 0.2
   playerInArea: 0
 --- !u!1 &347261467 stripped
 GameObject:
@@ -373,7 +377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 0372829a6cdcf4048864aefb5257a6d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.1708
+      value: 27.609
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 0372829a6cdcf4048864aefb5257a6d9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -381,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 0372829a6cdcf4048864aefb5257a6d9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.630573
+      value: 28.027
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 0372829a6cdcf4048864aefb5257a6d9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -672,7 +676,7 @@ GameObject:
   - component: {fileID: 950515350}
   - component: {fileID: 950515349}
   m_Layer: 5
-  m_Name: Text
+  m_Name: "\u5167\u5BB9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -694,8 +698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36, y: -2}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -3.68, y: -32.86}
+  m_SizeDelta: {x: 546.61993, y: 84.61551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950515349
 MonoBehaviour:
@@ -5908,7 +5912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947023715}
   m_LocalRotation: {x: -0, y: -0.9722289, z: 0, w: 0.23403203}
-  m_LocalPosition: {x: -0.023647249, y: 0.269, z: 0.041725647}
+  m_LocalPosition: {x: -0.023647249, y: -0.016, z: 0.041725647}
   m_LocalScale: {x: 2.2172577, y: 2.2172575, z: 2.2172577}
   m_Children: []
   m_Father: {fileID: 196585950}
