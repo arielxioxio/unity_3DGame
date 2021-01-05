@@ -17,6 +17,15 @@ public class NPC : MonoBehaviour
 
 
     public bool playerInArea;
+
+    public enum NPCState
+    {
+        FirstDialog, Missioning,Finish
+    }
+
+
+    public NPCState state = NPCState.FirstDialog;
+
     /**
      private void Start() 
     {
@@ -61,12 +70,25 @@ public class NPC : MonoBehaviour
         dialog.SetActive(true);
         textContent.text = "";
         textName.text = name;
+        string dialogString = data.dialougB;
 
+       switch(state)
+        {
+            case NPCState.FirstDialog:
+                dialogString = data.dialougA;
+                break;
+            case NPCState.Missioning:
+                dialogString = data.dialougB;
+                break;
+            case NPCState.Finish:
+                dialogString = data.dialougC;
+                break;
+        }
 
-       for(int i = 0;i<data.dialougA.Length;i++)
+       for(int i = 0;i< dialogString.Length;i++)
         {
             //print(data.dialougA[i]);
-            textContent.text += data.dialougA[i]+"";
+            textContent.text += dialogString[i]+"";
 
             yield return new WaitForSeconds(0.2f);
         }

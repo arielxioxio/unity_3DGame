@@ -257,6 +257,7 @@ MonoBehaviour:
   textName: {fileID: 873499571}
   interval: 0.2
   playerInArea: 0
+  state: 0
 --- !u!1 &347261467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100028, guid: 0372829a6cdcf4048864aefb5257a6d9,
@@ -5986,7 +5987,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
